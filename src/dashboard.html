@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/logo.png" />
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" ><img src="img/nav-bar.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+
+                    <li id="dropdown" class="dropdown" >
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-plus"></i>  Add Project </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Basement</a></li>
+                        <li><a href="#">Bathroom</a></li>
+                        <li><a href="#">Bedroom</a></li>
+                        <li><a href="#">Flooring</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal" >Kitchen</a></li>
+                        <li><a href="#">Landscaping</a></li>
+                        <li><a href="#">Living Room</a></li>
+                        <li><a href="#">Painting</a></li>
+                        <li><a href="#">Roofing</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Other</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+   <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <br>
+            <br>
+            <div class="row">
+                <div id="bathroom" class="col-sm-4 portfolio-item"   style="margin-right: 40px;" >
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/bathroom.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+                <div id='kitchen' class="col-sm-4 portfolio-item" style="display: none;">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/kitchen.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Dream Bathroom Project</h4>
+          </div>
+          <div class="modal-body">
+              <div>
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#activity" aria-controls="activity" role="tab" data-toggle="tab">Activity</a></li>
+                    <li role="presentation"><a href="#budget" aria-controls="budget" role="tab" data-toggle="tab">Budget</a></li>
+                    <li role="presentation"><a href="#milestones" aria-controls="milestones" role="tab" data-toggle="tab">Milestones</a></li>
+                  </ul>
+
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="activity">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Time</th>
+                            <th>Comment</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>11/17/15 - 9:00AM</td>
+                            <td>Intial Call</td>
+                          </tr>
+                          <tr>
+                            <td>11/18/15 - 1:12PM</td>
+                            <td>Joe Contractor arrived onsite for initial visit</td>
+                          </tr>
+                          <tr>
+                            <td>11/20/15 - 8:00AM</td>
+                            <td>Construction on bathroom project</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="budget">
+                        <h2>Budget Utilization - $5,918.45/$9,500.00</h2>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100" style="width: 63%">
+                            <span class="sr-only">63% Utilized</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="milestones">
+                        <p>Milestone 1 - Design Stage</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">100% Complete</span>
+                          </div>
+                        </div>
+                        <p>Milestone 2 - Installation Stage</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                            <span class="sr-only">40% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+<div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Kitchen Project</h4>
+        </div>
+          <div class="modal-body">
+            <form method="post" action='' name="login_form">
+                <p><input type="text" class="form-control" name="eid" id="testemail" placeholder="Project name"></p>
+                <p><input type="text" class="form-control" name="passwd" placeholder="Budget"></p>
+                <textarea class="form-control custom-control" rows="3" style="resize:none" placeholder="Anything else?"></textarea>
+                <div class="fileupload fileupload-new" data-provides="fileupload">
+                  <div>
+                    <span class="btn btn-file"><input type="file" /></span>
+                  </div>
+                </div>
+                <br>
+                <p>
+                    <button onclick="toggle_visibility('kitchen');" data-dismiss="modal" data-toggle="modal" data-target="#thankyouModal" type="submit" class="btn btn-primary">Start!</button>
+                    <a data-dismiss="modal" onclick="toggle_visibility('kitchen');" class="btn pull-right" type="submit">save for later</a>
+                <!--<a href="#">Forgot Password?</a>-->
+                </p>
+            </form>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="thankyouLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalsLabel">Thank you!</h4>
+            </div>
+            <div class="modal-body">
+                <p>Your project manager will be contacting on your preferred phone number, 555-555-5555 in the next 5 minutes.</p>
+                <p>In the meantime, please check out our <a href="https://www.facebook.com/cincihomesaver" target="_blank">Facebook</a> and share you Homesaver experience.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    //onclick="toggle_visibility('kitchen');"
+    //data-dismiss="modal"
+
+   function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+
+   }
+</script>
+
+</html>

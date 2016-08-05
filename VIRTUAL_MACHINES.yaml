@@ -1,0 +1,14 @@
+---
+- vmName           : app01
+  cores            : 1
+  memory_mb        : 1024
+  hostname         : app01
+  role             : proxy
+  osFam            : nix
+  ip1              : 192.168.0.2
+  syncVagrant      : !!bool true
+  syncFolder       : !!bool false
+  syncFolderSrc    : !!bool false
+  syncFolderDst    : !!bool false
+  syncFolderType   : !!bool false
+  shellScript      : setup.sh
